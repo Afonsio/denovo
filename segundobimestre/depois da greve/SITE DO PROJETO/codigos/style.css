@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pagina-entrada {
+    background-image: url("../imagens/imagemdapagina1.jpeg"); /* Substitua pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+}
+
+.pagina-menu {
+    background-image: url("../imagens/imagemdefundomenu.jpg"); /* Substitua pelo caminho da sua imagem de fundo para o menu */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    margin-bottom: 20px;
+}
+
+.logo {
+    background-image: url("../imagens/logo.png"); /* Certifique-se de que o caminho está correto */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: 30px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 5px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-container button {
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #7f2edb;
+    color: white;
+    border-radius: 5px;
+}
+
+.button-container button:hover {
+    background-color: #3041db;
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+    margin: 20px; /* Aumenta a distância entre as imagens */
+    cursor: pointer;
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: 200px; /* Ajuste o tamanho conforme necessário */
+    background-size: cover;
+    background-position: center;
+    text-align: center; /* Centraliza o texto */
+}
+
+.menu-item .menu-label {
+    position: absolute;
+    top: -30px; /* Posiciona o texto acima da imagem */
+    left: 50%;
+    transform: translateX(-50%);
+    color: black; /* Cor do texto */
+    font-size: 24px; /* Aumenta o tamanho do texto */
+    font-weight: bold;
+}
+
+/* Definindo as imagens de fundo para cada item do menu */
+.menu-item.bts {
+    background-image: url("../imagens/BTS.jpeg");
+}
+
+.menu-item.twice {
+    background-image: url("../imagens/Twice.jpeg");
+}
+
+.menu-item.straykids {
+    background-image: url("../imagens/STRAY_KIDS.jpeg");
+}
+
+.menu-item.blackpink {
+    background-image: url("../imagens/BLACKPINK.jpeg");
+}

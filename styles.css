@@ -1,0 +1,64 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('imagensdosmenus/imagemprincipal.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.bimestres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bimestre-btn {
+    display: inline-block;
+    background-color: #2f4fce;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.bimestre-btn:hover {
+    background-color: #22349b;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .bimestres {
+        flex-direction: column;
+    }
+
+    .bimestre-btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}

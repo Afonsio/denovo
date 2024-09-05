@@ -1,0 +1,19 @@
+body{
+
+    background-color: rgb(137, 23, 178);
+
+}
+p{
+    color: aqua;
+    width: 500px;
+    /*background-color: rgb(205, 255, 238);*/
+    border: 5px solid pink;
+    padding: 30px;
+    margin: 100px;
+}
+h2{
+    background-color: cyan;
+}
+#segundo{
+    background-color: blue;
+}

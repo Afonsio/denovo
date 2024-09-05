@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Não sei</title>
+</head>
+<body background="cavera.png">
+    <font color="red">
+
+    <p align="center">
+        <a href="#div">&lt;div&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#span">&lt;span&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#img">&lt;img&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#aside">&lt;aside&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#audio">&lt;audio&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#canvas">&lt;canvas&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#datalist">&lt;datalist&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#details">&lt;details&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#embed">&lt;embed&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#nav">&lt;nav&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#output">&lt;output&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#progress">&lt;progress&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#video">&lt;video&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#ul">&lt;ul&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#ol">&lt;ol&gt;</a> <span>&nbsp;&nbsp;</span>
+        <a href="#li">&lt;li&gt;</a> <span>&nbsp;&nbsp;</span>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br>
+
+    <h2>div</h2><a name="div"></a>
+     <p>A tag div não tem um significado semântico específico, o que significa que ela não indica o tipo de conteúdo que contém. Em vez disso, é usada principalmente para ajudar a organizar e estilizar o conteúdo da página usando CSS (Cascading Style Sheets).</p>
+     
+     <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br>
+
+    <h2>span</h2><a name="span"></a>
+    <p>O span é outro elemento fundamental em HTML, mas ao contrário do div, ele é um elemento de linha (inline). Enquanto o div é usado para agrupar blocos maiores de conteúdo e criar divisões em uma página da web, o span é usado para aplicar estilos a pequenas partes do texto ou outros elementos dentro de uma linha de texto.</p>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br>
+
+    <h2>img</h2><a name="img"></a>
+    <p>A src (source) especifica o caminho para a imagem que será exibida na página. Este deve ser o caminho do arquivo de imagem no sistema de arquivos ou a URL completa da imagem na web.
+O atributo alt (alternativo) fornece um texto alternativo para a imagem, que é exibido se a imagem não puder ser carregada ou se o usuário estiver utilizando um leitor de tela. É importante fornecer uma descrição significativa para acessibilidade e SEO.</p>
+
+<img src="im1.jpeg" width="150">
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br>
+
+    <h2>aside</h2>
+      <p>A tag <aside> é um elemento em HTML usado para representar conteúdo tangencial ou relacionado ao conteúdo principal de uma página da web. Esse conteúdo geralmente é considerado secundário em relação ao conteúdo principal, mas ainda está relacionado a ele de alguma forma. O elemento <aside> é frequentemente utilizado para criar barras laterais, blocos de conteúdo adicional, notas de rodapé ou conteúdo relacionado em um layout de página.</p>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br>
+
+    <h2>audio</h2><a name="audio"></a>
+    <p>A tag audio em HTML5 é usada para incorporar arquivos de áudio em uma página da web, permitindo que os visitantes reproduzam e controlem a reprodução do áudio diretamente na página, sem a necessidade de um player externo.</p>
+    <audio controls>
+  <source src="jaseinamorar.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.</audio>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br>
+
+    <h2>canvas</h2><a name="canvas"></a>
+    <p>A tag canvas em HTML é usada para desenhar gráficos, animações e outras imagens dinâmicas diretamente no navegador da web. É uma área retangular na qual você pode desenhar usando JavaScript. A canvas é uma tag HTML5, o que significa que é uma adição relativamente nova ao HTML.</p>
+    <canvas id="meuCanvas" width="400" height="200"></canvas>
+<script>
+    var canvas = document.getElementById('meuCanvas');
+    var ctx = canvas.getContext('2d');
+
+    ctx.fillStyle = 'green';
+    ctx.fillRect(10, 10, 100, 100);
+</script>
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br>
+
+    <h2>datalist</h2><a name="datalist"></a>
+    <p> datalist é um elemento HTML que fornece uma lista de opções para elementos input do tipo texto. Ele permite que você defina uma lista de valores predefinidos que serão sugeridos ao usuário enquanto ele digita em um campo de entrada. Quando o usuário digita algo no campo de entrada, ele pode ver uma lista suspensa de opções que correspondem ao que ele digitou.</p>
+    <label for="frutas">Escolha uma fruta:</label>
+<input list="opcoes-frutas" id="frutas" name="frutas">
+<datalist id="opcoes-frutas">
+  <option value="Maçã">
+  <option value="Banana">
+  <option value="Laranja">
+  <option value="Morango">
+  <option value="Pêssego">
+</datalist>
+        
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br>
+
+    <h2>details</h2><a name="details"></a>
+     <p> details é um elemento HTML que é usado para criar um widget de controle expansível, muitas vezes usado para revelar informações adicionais em uma página da web. Ele permite que você crie um conteúdo que pode ser oculto ou exibido ao clicar em um título ou resumo associado.</p>
+
+     <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br>
+
+    
+</audio>
+</body>
+</html>

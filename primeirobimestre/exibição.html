@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Imagens</title>
+    <style>
+        /* Estilos básicos de layout */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .menu {
+            margin-bottom: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #0056b3;
+            font-size: 18px;
+            padding: 10px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+        }
+
+        .menu a:hover {
+            background-color: #d4d4d4;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .gallery img {
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="menu">
+        <a href="../index.html">Voltar ao Menu</a>
+    </nav>
+
+    <h1>Minhas Imagens</h1>
+
+    <div class="gallery">
+        <div>
+            <a href="pagina1.html"><img src="im1.jpeg" alt="Imagem 1" width="300"></a>
+        </div>
+
+        <div>
+            <a href="pagina2.html"><img src="im2.jpeg" alt="Imagem 2" width="300"></a>
+        </div>
+
+        <div>
+            <a href="pagina3.html"><img src="im3.jpeg" alt="Imagem 3" width="300"></a>
+        </div>
+
+        <div>
+            <a href="pagina4.html"><img src="im4.jpeg" alt="Imagem 4" width="300"></a>
+        </div>
+    </div>
+
+</body>
+</html>
